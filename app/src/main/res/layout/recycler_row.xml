@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:id="@+id/Recyclerrow"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:layout_margin="10dp"
+    >
+
+    <androidx.cardview.widget.CardView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_weight="1"
+        app:cardCornerRadius="20dp"
+        android:elevation="30dp"
+
+        >
+
+        <ImageView
+            android:id="@+id/imageView10"
+            android:layout_width="750px"
+            android:layout_height="400px"
+            android:layout_weight="1" />
+
+        <TextView
+            android:id="@+id/fiyattext"
+            android:layout_width="100dp"
+            android:layout_height="150dp"
+            android:layout_gravity="end"
+            android:layout_weight="1"
+            android:gravity="center"
+            android:text="Fiyat
+    "
+            android:textSize="24sp" />
+
+    </androidx.cardview.widget.CardView>
+
+</LinearLayout>

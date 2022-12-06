@@ -1,0 +1,43 @@
+<resources>
+    <string name="app_name">RecipeApp</string>
+    <string name="title_activity_main2">MainActivity2</string>
+    <string name="navigation_drawer_open">Open navigation drawer</string>
+    <string name="navigation_drawer_close">Close navigation drawer</string>
+    <string name="nav_header_name">Yusuf Üzeyir Kaya</string>
+    <string name="nav_header_mailadress">ys.kaya1400@gmial.com</string>
+    <string name="nav_header_desc">Navigation header</string>
+    <string name="action_settings">Settings</string>
+    <string name="parolasıfırlamesaj">"Parolamı sıfırla" butonuna bastıktan sonra girilen mail adresini kontol ediniz.</string>
+    <string name="menu_profil">Profil</string>
+    <string name="menu_tarif">Tarifler</string>
+    <string name="menu_forum">Forum</string>
+    <string name="TarifDetay">Öncelikle iç malzemesi için kuru soğanlar ince yemeklik doğranır ve yarım çay bardağı zeytinyağında kavrulur.
+Soğanlar kavrulunca rendelenmiş veya robottan geçirilmiş 1 adet domates eklenir ve karıştırılır.
+Yıkanmış ve suyu süzülmüş pirinçler ilave edilerek hafifçe kavrulur.
+Dolmalık fıstıklar, kuş üzümü, tarçın, kuru nane, karabiber, toz şeker, tuz ilave edilir.
+Karıştırılarak ocaktan alınır. Son olarak ince doğranmış maydanoz ve Öncelikle iç malzemesi için kuru soğanlar ince yemeklik doğranır ve yarım çay bardağı zeytinyağında kavrulur.
+Soğanlar kavrulunca rendelenmiş veya robottan geçirilmiş 1 adet domates eklenir ve karıştırılır.
+Yıkanmış ve suyu süzülmüş pirinçler ilave edilerek hafifçe kavrulur.
+Dolmalık fıstıklar, kuş üzümü, tarçın, kuru nane, karabiber, toz şeker, tuz ilave edilir.
+Karıştırılarak ocaktan alınır. Son olarak ince doğranmış maydanoz ve taze naneler eklenir ve güzelce karıştırılır.
+Diğer taraftan dolmalık biberlerin kapak kısmı açılır ve güzelce yıkanır.
+Her biberin içine iç harcından doldurularak tencereye yerleştirilir. Burada önemli olan nokta pirinçlerin rahatça şişebilmesi için biberleri çok sıkı bir şekilde ve tepeleme doldurmamak gerekir, yarısını biraz geçecek kadar iç harcı doldurmanız yeterli olacaktır.
+Dolmaların kapağına kapatmak için bir domates küçük doğranarak her biberin tepesini kapatılır.
+Daha sonra uygun bir tencereye doldurulur.
+Son olarak üzerlerine yarım çay bardağı kadar zeytinyağı gezdirilir ve biberlerin yarısına gelecek kadar su ilave edilir.
+Tencerenin kapağı kapatılarak pişmeye bırakılır.
+Pirinçler yumuşayıncaya kadar, yaklaşık 20-25 dakika kaynatılır.
+Soğuduktan sonra servis edilir. taze naneler eklenir ve güzelce karıştırılır.
+Diğer taraftan dolmalık biberlerin kapak kısmı açılır ve güzelce yıkanır.
+Her biberin içine iç harcından doldurularak tencereye yerleştirilir. Burada önemli olan nokta pirinçlerin rahatça şişebilmesi için biberleri çok sıkı bir şekilde ve tepeleme doldurmamak gerekir, yarısını biraz geçecek kadar iç harcı doldurmanız yeterli olacaktır.
+Dolmaların kapağına kapatmak için bir domates küçük doğranarak her biberin tepesini kapatılır.
+Daha sonra uygun bir tencereye doldurulur.
+Son olarak üzerlerine yarım çay bardağı kadar zeytinyağı gezdirilir ve biberlerin yarısına gelecek kadar su ilave edilir.
+Tencerenin kapağı kapatılarak pişmeye bırakılır.
+Pirinçler yumuşayıncaya kadar, yaklaşık 20-25 dakika kaynatılır.
+Soğuduktan sonra servis edilir.</string>
+
+
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+</resources>

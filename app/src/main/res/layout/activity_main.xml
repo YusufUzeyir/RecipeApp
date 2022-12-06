@@ -1,0 +1,126 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#F9E6C3"
+    android:backgroundTint="@null"
+    tools:context=".GirisSayfasi">
+    <ImageView
+        android:id="@+id/imageView2"
+        android:layout_width="227dp"
+        android:layout_height="254dp"
+        android:layout_centerHorizontal="true"
+        android:layout_marginVertical="65dp"
+
+        app:srcCompat="@drawable/tellidefter" />
+
+    <EditText
+        android:id="@+id/editTextTextEmailAddress"
+        android:layout_width="260dp"
+        android:layout_height="43dp"
+        android:layout_centerHorizontal="true"
+        android:layout_marginVertical="400dp"
+        android:background="@drawable/btn_bg3"
+        android:ems="10"
+        android:gravity="center"
+        android:hint="E-mail"
+        android:textColor="#009688"
+        android:textColorHint="#009688"
+        android:inputType="textEmailAddress"
+        tools:ignore="SpeakableTextPresentCheck,TouchTargetSizeCheck" />
+
+
+
+    <com.google.android.material.textfield.TextInputLayout
+        style="@style/Widget.MaterialComponents.TextInputLayout.OutlinedBox"
+        android:id="@+id/editTextTextPasswordAsil2"
+        android:layout_width="260dp"
+        android:layout_height="55dp"
+        android:layout_centerHorizontal="true"
+        android:layout_marginVertical="450dp"
+        android:hint="Password"
+        app:counterEnabled="true"
+        app:hintTextColor="#009688"
+        android:textColor="#009688"
+        app:passwordToggleEnabled="true">
+
+        <com.google.android.material.textfield.TextInputEditText
+            android:id="@+id/editTextTextPasswordAsil"
+            android:layout_width="260dp"
+            android:layout_height="50dp"
+            android:background="@drawable/btn_bg3"
+            android:gravity="center"
+            android:inputType="textPassword"
+            android:textColor="#009688"
+            app:hintTextColor="#009688"
+            tools:ignore="SpeakableTextPresentCheck,TouchTargetSizeCheck">
+
+        </com.google.android.material.textfield.TextInputEditText>
+    </com.google.android.material.textfield.TextInputLayout>
+
+    <ImageView
+        android:id="@+id/imageView8"
+        android:layout_width="32dp"
+        android:layout_height="32dp"
+        android:layout_marginVertical="405dp"
+        android:layout_marginRight="8dp"
+        android:layout_toStartOf="@id/editTextTextEmailAddress"
+        app:srcCompat="@drawable/mailicon" />
+
+
+    <ImageView
+        android:id="@+id/imageView5"
+        android:layout_width="30dp"
+        android:layout_height="30dp"
+        android:layout_toStartOf="@id/editTextTextPasswordAsil2"
+        android:layout_marginVertical="470dp"
+        android:layout_marginRight="9dp"
+        app:srcCompat="@drawable/kiliticon" />
+
+    <Button
+        android:id="@+id/girisyap"
+        android:layout_width="151dp"
+        android:layout_height="wrap_content"
+        android:layout_centerHorizontal="true"
+        android:layout_marginVertical="580dp"
+        android:background="@drawable/btn_bg"
+        android:onClick="girisyap"
+        android:text="Giriş Yap"
+        android:fontFamily="sans-serif"
+        android:textAllCaps="false"
+        android:textColor="#FDFDFD"
+        android:textSize="24sp"
+        app:backgroundTint="@null" />
+
+    <Button
+        android:id="@+id/kayitol"
+        android:layout_width="wrap_content"
+        android:layout_height="36dp"
+        android:layout_centerHorizontal="true"
+        android:layout_marginVertical="635dp"
+        android:background="?android:selectableItemBackground"
+        android:onClick="kayitOl"
+        android:text="Kayıt Ol"
+        android:textStyle="bold"
+        android:textAllCaps="false"
+        android:textColor="#001A6C"
+        tools:ignore="TouchTargetSizeCheck,DuplicateClickableBoundsCheck" />
+
+    <Button
+        android:id="@+id/sifreunuttum"
+        android:layout_width="wrap_content"
+        android:layout_height="36dp"
+        android:layout_alignStart="@id/editTextTextPasswordAsil2"
+        android:layout_marginVertical="500dp"
+        android:background="?android:selectableItemBackground"
+        android:text="Şifremi Unuttum"
+        android:textAllCaps="false"
+        android:textColor="#001A6C"
+        android:textStyle="bold"
+        tools:ignore="TouchTargetSizeCheck,DuplicateClickableBoundsCheck" />
+
+
+
+</RelativeLayout>
