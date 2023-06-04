@@ -25,11 +25,14 @@ Türü seçtikten sonra malzemesi ve yapılışı listelenmektedir.
 
 UYGULAMA VERİ TABANI ANLATIMI
 
-Uygulama içi veirler firebase veri tabanından doğrudan çekilmektedir.
+Uygulama içi veirler firebase veri tabanından doğrudan çekilmektedir. Menü verileri FireStore Database üzerinde saklanamkatadır.
 ![Ekran Görüntüsü (78)](https://github.com/YusufUzeyir/RecipeApp/assets/92249669/0b8affb3-d672-4cd0-a145-0a5b2a640386)
 
-Kullanıcı verileri sadece mail ve isim olarak kayıt edilmekte şifre kriptolanmaktadır. 
-Veri tabanına erişimi olan kimse sizin şifrenize erişim sağlayamaz.
+Kullanıcı verileri sadece mail ve isim olarak kayıt edilmekte şifre kriptolanmaktadır. Veri tabanına erişimi olan kimse sizin şifrenize erişim sağlayamaz. Kullanıcı verileri RealTime Database üzerinde saklanamktadır
 ![Ekran Görüntüsü (79)](https://github.com/YusufUzeyir/RecipeApp/assets/92249669/ccf363cf-1815-4def-9dcb-98a49db6fedc)
+
+Uygulama içi resim verileri de storage kısmında saklanmaktadır.
+![Ekran Görüntüsü (80)](https://github.com/YusufUzeyir/RecipeApp/assets/92249669/5e9ec7e6-96c8-47cd-a09f-cd408a46f081)
+
 
 
